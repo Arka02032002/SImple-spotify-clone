@@ -1,0 +1,127 @@
+body{
+    background-color:#1DB954;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    background-color: rgb(61, 61, 61);
+    height: 3.5vw;
+    width:100vw;
+}
+li{
+    color: white;
+    padding-right: 2vw;
+}
+.brand{
+    margin-top: 0.2vw;
+}
+
+.brand img{
+height: 2vw;
+width:auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    min-height: 75vh;
+    width: 70vw; 
+    background-color: black;
+    border: 2px solid #1DB954;
+    color: white;
+    display: flex;
+    margin: 0.4vw auto;
+    padding: 0.3vw 0.7vw;
+    border-radius: 10px;
+    background: url("./song-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+}
+
+.track{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    position:relative;
+    background-color: rgb(24, 24, 24);
+    padding: 3px;
+    border-radius: 80px;
+    margin-top: 2vh;
+    cursor:pointer;
+
+}
+.songCover img{
+    height: 27px;
+    width: 27px;
+    border-radius: 100%;
+}
+.song{
+    font-size: 20px;
+    width:245px;
+}
+.status{
+     align-self: flex-end;
+}
+
+
+.footer{
+    position:sticky;
+    color: white;
+    background-color:rgb(31, 31, 31);
+    height: 15vh; 
+    width:100vw;
+    bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    /* display: none; */
+}
+.equalizer{
+    display: flex;
+}
+.equalizer p{
+    padding-top:15px;
+    padding-left:8px ;
+    font-size: 23px;
+}
+.equalizer img{
+    height: 7.5vh;
+    width: 5vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out ;
+}
+
+#seekbar{
+    width: 80vw;
+    height: 0.5vh;
+
+}
+.icons{
+    display:flex;
+    padding-top: 2vh;
+    padding-bottom: 0.3vh;
+}
+.icons svg{
+    margin: 0vw 1vw;
+}
+.icons svg,#seekbar:hover{
+    cursor: pointer;
+}
+
+
+
